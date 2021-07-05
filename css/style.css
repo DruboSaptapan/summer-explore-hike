@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*↓ ↓ ↓ header setion ↓ ↓ ↓*/
+#header{
+    display: flex;
+    height: 120px;
+    margin-top: 30px;
+}
+.left{
+    width: 35%;
+    padding: 12px 0;
+}
+.left img{
+    width: 90px;
+}
+.middle{
+    width: 55%;
+}
+.middle ul{
+    display: flex;
+    padding: 50px 0;
+}
+.middle ul li{
+    position: relative;
+    right: 0;
+    padding: 0 35px;
+    list-style-type: none;
+    font-weight: 600;
+}
+.middle ul a{
+    color: #54524f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.right{
+    background-color: #c3bfbc;
+    position: relative;
+    margin: 34px 0;
+    width: 15%;
+    height: 50px;
+    border-radius: 30px;
+}
+.right i{
+    color: #68635f;
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+/* ↓ ↓ ↓banner section ↓ ↓ ↓ */
+#banner{
+    background-image: url("../img/traveler.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 214px 0 377px 0;
+}
+#banner .text h1{
+    color: #deb37e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px -2px 12px #969696;
+}
+#banner .text h3{
+    margin-bottom: 30px;
+    color: #54524f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#banner .text a{
+    padding: 10px 25px;
+    color: #776c64;
+    background-color: #fefdfd;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#banner .text p{
+    color: #54524f;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    width: 475px;
+    height: 75px;
+    margin-top: 25px;
+}
+/* ↓↓↓ content section ↓↓↓ */
+#content h2{
+    color: #e2a355;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+#content .sub-title{
+    width: 475px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+#content .img-content{
+    display: flex;
+}
+.img-content .img-box{
+    background-color: #7f7770;
+    width: 300px;
+    margin: 40px;
+}
+.img-content .img-box:nth-child(1){
+    margin-left: 0;
+}
+.img-content .img-box:nth-child(3){
+    margin-right: 0;
+}
+.img-content .img-box img{
+    max-width: 100%;
+}
+.img-explain{
+    padding: 25px 15px;
+}
+.img-explain h4{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.img-explain p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+#content a{
+    position: absolute;
+    left: 528px;
+    background-color: #7f7770;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 20px 70px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+/* ↓ ↓ ↓ offer ↓ ↓ ↓ */
+#offer{
+    margin-top: 180px;
+}
+.image-essay{
+    display: flex;
+}
+#offer .image{
+    width: 50%;
+}
+#offer .image img{
+    width: 100%;
+}
+#offer .essay{
+    width: 41%;
+}
+.image-essay .essay{
+    background-color: #7f7770;
+    padding: 200px 60px;
+}
+.image-essay:nth-child(2) .essay{
+    background-color: #deb37e;
+    padding: 200px 60px;
+}
+.image-essay .essay h3{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.image-essay .essay p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 20px 0 50px 0;
+}
+.image-essay .essay a{
+    color: #fff;
+    padding: 27px 60px;
+    background-color: #e2a355;
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#hiking{
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-color: rgba(127, 119, 112, 0.8);
+    width: 100%;
+    padding: 350px 0 120px 0;
+}
+#hiking .mountain{
+    width: 60%;
+    margin: 0 auto;
+}
+#hiking .mountain h3{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#hiking .mountain p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+#explore{
+    background-image: url(../img/31.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 450px;
+    height: 700px;
+    position: relative;
+    margin-bottom: 70px;
+}
+#explore .text h1{
+    width: 550px;
+    color: #54524f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 800;
+    position: absolute;
+    right: 50px;
+    top: 520px;
+    text-align: right;
+    text-transform: uppercase;
+}
+#explore .text span{
+    color: #deb37e;
+}
+#poem .items{
+    display: flex;
+    margin-bottom: 120px;
+}
+#poem .items .item{
+    width: 320px;
+    margin: 30px;
+}
+#poem .items .item:nth-child(1){
+    margin-left: 0;
+}
+#poem .items .item:nth-child(3){
+    margin-right: 0;
+}
+#poem .item h4{
+    color: #deb37e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+#poem .item p{
+    color: #333d42;
+    font-family: 'Open Sans', sans-serif;
+}
+#poem .story{
+    width: 50%;
+    margin: 0 auto;
+}
+#poem .story h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 800;
+}
+#poem .story p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#poem .story .different{
+    font-weight: 700;
+    margin-top: 30px;
+}
+#mail{
+    width: 100%;
+    margin-top: 80px;
+    padding-top: 180px;
+    padding-bottom: 80px;
+    background-color: #deb37e;
+}
+#mail .middle{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+#mail .middle h2{
+    color: #fff;
+    padding-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+}
+#mail .middle p{
+    margin: 0 auto;
+    width: 55%;
+    color: #54524f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+#mail .mail-box{
+    width: 450px;
+    margin: 40px auto;
+    padding: 15px 0;
+    background-color: #fff;
+    border-radius: 50px;
+}
+#mail .middle .mail-box p{
+    color: #54524f;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+}
+#mail .middle .subscribe-box{
+    width: 120px;
+    margin: 40px auto;
+    padding: 15px 0;
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 90px;
+    background-color: #54524f;
+}
+#mail .middle .subscribe-box p{
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin: 0;
+}
